@@ -1,0 +1,99 @@
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.premium-container {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    height: 750px;
+    background: #eeeeee;
+    padding-top: 100px;
+}
+
+
+.premium-offers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.premium-offer {
+    border: 2px solid #007bff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+
+.premium-offer:hover {
+    transform: translateY(-5px);
+}
+
+.premium-offer h3 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.premium-offer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.premium-offer ul li {
+    margin-bottom: 10px;
+}
+
+.premium-offer button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.premium-offer button:hover {
+    background-color: #0056b3;
+}
+
+.payment-form {
+    margin-top: 20px;
+}
+
+.payment-form p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.payment-form button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px;
+}
+
+.payment-form button:hover {
+    background-color: #0056b3;
+}
+
+@media screen and (max-width: 768px) {
+    .premium-offers {
+        flex-direction: column;
+    }
+
+    .premium-offer {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
