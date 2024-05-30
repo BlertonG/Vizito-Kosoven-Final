@@ -14,14 +14,15 @@ import Footer from "../../Components/Footer/footer";
 function Drinks() {
 
     const restaurants  = [
-        { image: img1, name: 'Illyrian Castle Restaurant', rating: 5.0, location: '123 Main St, Prishtina' },
-        { image: img2, name: 'Sen5es Restaurant', rating: 5.0, location: '456 Oak St, Prishtina' },
-        { image: img3, name: 'Shpia e Vjeter Restaurant', rating: 5.0, location: '789 Pine St, Prishtina' },
+        { image: img1, name: 'Illyrian Castle Restaurant', rating: 5.0, location: 'Illyrian Castle Restaurant' },
+        { image: img2, name: 'Senses Restaurant', rating: 5.0, location: 'Senses Restaurant' },
+        { image: img3, name: 'Shpia e Vjeter Restaurant', rating: 5.0, location: 'Shpija e Vjetër' },
         { image: img4, name: 'Sospiro Restaurant', rating: 5.0, location: '101 Elm St, Prishtina' },
-        { image: img5, name: 'City Grill Restaurant', rating: 5.0, location: '234 Maple St, Prishtina' },
+        { image: img5, name: 'City Grill Restaurant', rating: 5.0, location: 'City Grill Restaurant' },
         { image: img6, name: 'Pinokio Restaurant', rating: 5.0, location: '567 Birch St, Prishtina' },
         { image: img7, name: 'Hera Restaurant', rating: 5.0, location: '890 Cedar St, Prishtina' },
-        { image: img8, name: 'Garden Restaurant', rating: 5.0, location: '111 Walnut St, Prishtina' }
+        { image: img8, name: 'Garden Restaurant', rating: 5.0, location: 'Hotel Garden' +
+                '' }
     ];
 
     const handleViewMap = (location) => {
