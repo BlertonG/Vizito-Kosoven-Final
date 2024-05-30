@@ -14,9 +14,9 @@ import Footer from "../../Components/Footer/footer";
 function Drinks() {
 
     const restaurants  = [
-        { image: img1, name: 'Illyrian Castle Restaurant', rating: 5.0, location: 'Illyrian Castle Restaurant' },
+        { image: img1, name: 'Illyrian Castle ', rating: 5.0, location: 'Illyrian Castle Restaurant' },
         { image: img2, name: 'Senses Restaurant', rating: 5.0, location: 'Senses Restaurant' },
-        { image: img3, name: 'Shpia e Vjeter Restaurant', rating: 5.0, location: 'Shpija e Vjetër' },
+        { image: img3, name: 'Shpia e Vjeter ', rating: 5.0, location: 'Shpija e Vjetër' },
         { image: img4, name: 'Sospiro Restaurant', rating: 5.0, location: '101 Elm St, Prishtina' },
         { image: img5, name: 'City Grill Restaurant', rating: 5.0, location: 'City Grill Restaurant' },
         { image: img6, name: 'Pinokio Restaurant', rating: 5.0, location: '567 Birch St, Prishtina' },
